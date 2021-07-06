@@ -1,0 +1,116 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    margin: 0px;
+}
+section{
+    display: flex;
+}
+div{
+    display: block;
+}
+.half-width{
+    width: 50%;
+    padding: 7%;
+}
+.head{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: rgb(49, 55, 61);
+}
+.head02{
+    text-align: justify;
+}
+.sec1{
+    background-image: url(images/shapes/Frame-59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+}
+.favourite{
+    color: rgb(255, 166, 0);
+}
+.hot{
+    color: rgb(255, 0, 0);
+}
+.fresh{
+    color: rgb(31, 209, 0);
+}
+.order{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(54, 248, 70),rgb(12, 58, 0) );
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.order:hover{
+    background-image: linear-gradient(rgb(52, 255, 25), rgb(0, 27, 4));
+}
+.img1{
+    width: 125%;
+    padding: 5px;
+    transition: .5s ease-out;
+}
+
+
+.sec2{
+    background-image: url(images/shapes/Frame-58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5%;
+}
+.img2{
+    width: 50%;
+    padding: 5px;
+    transition: .5s ease-out;
+}
+
+.sec3{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sec04{
+    margin: 60px;
+}
+
+.width{
+    width:33.33%;
+    padding: 2%;
+    margin: 30px;
+    box-shadow: 5px 5px 20px rgb(34, 33, 33);
+    border-radius: 20px;
+    background-color: rgb(228, 228, 228);
+    transition: .4s ease-out;
+}
+.recipieimg{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+.sec05{
+    margin: 60px;
+    box-shadow: 5px 5px 20px rgb(34, 33, 33);
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+.width-last{
+    width:33.33%;
+    padding: 2%;
+    text-align: center;
+}
+
+
+
+footer{
+    background-color: rgb(24, 24, 26);
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+.food{
+    color: coral;
+}
